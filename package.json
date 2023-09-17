@@ -1,0 +1,19 @@
+{
+  "name": "treasury",
+  "version": "0.0.1",
+  "description": "Treasury app for invoice reporting written in Typescript and following the Hexagonal Architecture paradigm.",
+  "repository": "git@github.com:vespa7/treasury.git",
+  "author": "Carlos Espa",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "src/contexts/*",
+    "src/apps/treasury/*"
+  ],
+  "scripts": {
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

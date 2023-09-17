@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "noFallthroughCasesInSwitch": true,
+    "target": "es2021",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "es2021"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "incremental": true
+  },
+  "declaration": true,
+  "include": [
+    "next-env.d.ts",
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "next.config.js",
+    ".next/types/**/*.ts"
+  ],
+  "removeComments": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "noImplicitAny": true,
+  "sourceMap": true,
+  "declarationMap": true,
+  "exclude": [
+    "node_modules"
+  ]
+}
